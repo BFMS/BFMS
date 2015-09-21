@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll">
+   <Modules>
+    <Module Name="bfapi.dll">
+     <Namespaces>
+      <Namespace Name="BFAPI">
+       <Types>
+        <Type Name="BetfairClient" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Login(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Objekte nicht mehrmals verwerfen" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-09-21 15:00:02Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI" File="BetfairClient.cs" Line="147">Das Objekt "'stream'" kann mehrere Male in der 'BetfairClient.Login(string, string, string)'-Methode verworfen werden. Um zu verhindern, dass eine System.ObjectDisposedException generiert wird, sollten Sie die Dispose-Methode nur einmal für ein Objekt aufrufen.: Lines: 147</Issue>
+             <Issue Certainty="75" Level="Warning" Path="E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI" File="BetfairClient.cs" Line="161">Das Objekt "'stream'" kann mehrere Male in der 'BetfairClient.Login(string, string, string)'-Methode verworfen werden. Um zu verhindern, dass eine System.ObjectDisposedException generiert wird, sollten Sie die Dispose-Methode nur einmal für ein Objekt aufrufen.: Lines: 161</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="BetfairServerException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2015-09-21 15:00:02Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Fügen Sie 'BetfairServerException' [Serializable] hinzu, da dieser Typ ISerializable implementiert.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Network" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetResponseHtml(System.Net.HttpWebResponse)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Objekte nicht mehrmals verwerfen" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-09-21 15:00:02Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI" File="Network.cs" Line="182">Das Objekt "'deflateStream'" kann mehrere Male in der 'Network.GetResponseHtml(HttpWebResponse)'-Methode verworfen werden. Um zu verhindern, dass eine System.ObjectDisposedException generiert wird, sollten Sie die Dispose-Methode nur einmal für ein Objekt aufrufen.: Lines: 182</Issue>
+             <Issue Certainty="75" Level="Warning" Path="E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI" File="Network.cs" Line="176">Das Objekt "'gzipStream'" kann mehrere Male in der 'Network.GetResponseHtml(HttpWebResponse)'-Methode verworfen werden. Um zu verhindern, dass eine System.ObjectDisposedException generiert wird, sollten Sie die Dispose-Methode nur einmal für ein Objekt aufrufen.: Lines: 176</Issue>
+             <Issue Certainty="75" Level="Warning" Path="E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI" File="Network.cs" Line="176">Das Objekt "'responseStream'" kann mehrere Male in der 'Network.GetResponseHtml(HttpWebResponse)'-Methode verworfen werden. Um zu verhindern, dass eine System.ObjectDisposedException generiert wird, sollten Sie die Dispose-Methode nur einmal für ein Objekt aufrufen.: Lines: 176, 182, 187</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237">
+   <Name>ISerializable-Typen mit SerializableAttribute markieren</Name>
+   <Description>Die System.Runtime.Serialization.ISerializable-Schnittstelle lässt zu, dass der Typ seine Serialisierung anpasst, während das Serializable-Attribut es der Common Language Runtime ermöglicht, den Typ als serialisierbar zu erkennen.</Description>
+   <Resolution Name="Default">Fügen Sie {0} [Serializable] hinzu, da dieser Typ ISerializable implementiert.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182350.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="Objekte nicht mehrmals verwerfen" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Objekte nicht mehrmals verwerfen</Name>
+   <Description>Eine ordnungsgemäß implementierte Dispose-Methode kann mehrere Male aufgerufen werden, ohne dass eine Ausnahme ausgelöst wird. Dies ist jedoch nicht garantiert. Um zu verhindern, dass eine System.ObjectDisposedException generiert wird, sollten Sie die Dispose-Methode nur einmal für ein Objekt aufrufen.</Description>
+   <Resolution Name="Default">Das Objekt "{0}" kann mehrere Male in der {1}-Methode verworfen werden. Um zu verhindern, dass eine System.ObjectDisposedException generiert wird, sollten Sie die Dispose-Methode nur einmal für ein Objekt aufrufen.: Lines: 182</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategorie</String>
+  <String Key="Certainty">Sicherheit</String>
+  <String Key="CollapseAll">Alle reduzieren</String>
+  <String Key="CheckId">Prüf-ID</String>
+  <String Key="Error">Fehler</String>
+  <String Key="Errors">Fehler</String>
+  <String Key="ExpandAll">Alle erweitern</String>
+  <String Key="Help">Hilfe</String>
+  <String Key="Line">Zeile</String>
+  <String Key="Messages">Meldung(en)</String>
+  <String Key="LocationNotStoredInPdb">[Nicht in PDB gespeicherter Speicherort]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Auflösung</String>
+  <String Key="Rule">Regel</String>
+  <String Key="RuleFile">Regeldatei</String>
+  <String Key="RuleDescription">Regelbeschreibung</String>
+  <String Key="Source">Quelle</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Ziel</String>
+  <String Key="Warning">Warnung</String>
+  <String Key="Warnings">Warnung(en)</String>
+  <String Key="ReportTitle">Codeanalysebericht</String>
+ </Localized>
+</FxCopReport>

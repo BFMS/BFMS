@@ -1,0 +1,1 @@
+SELECT * FROM marketbook JOIN runner USING(Marketid,RefreshNr) JOIN volume USING (Marketid,Refreshnr,Selectionid) WHERE Marketid='1.120103061'  AND refreshNr=(SELECT MAX(RefreshNr) FROM marketbook WHERE Marketid='1.120103061' AND IsInPlay='False')

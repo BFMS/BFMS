@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="E:\Projekte\BF\BFMS\BFMS\BFMS\Shared\bin\Debug\Shared.dll">
+   <Modules>
+    <Module Name="shared.dll">
+     <Namespaces>
+      <Namespace Name="Shared.BFDO">
+       <Types>
+        <Type Name="APINGException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2015-09-21 14:59:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Fügen Sie 'APINGException' [Serializable] hinzu, da dieser Typ ISerializable implementiert.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CallBaseClassMethodsOnISerializableTypes" Category="Microsoft.Usage" CheckId="CA2236" Status="Active" Created="2015-09-21 14:59:54Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\Projekte\BF\BFMS\BFMS\BFMS\Shared\BFDO" File="APINGException.cs" Line="12">Die 'APINGException.APINGException(SerializationInfo, StreamingContext)'-Methode sollte so geändert werden, dass sie ihre Basisklassenimplementierung aufruft.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="CallBaseClassMethodsOnISerializableTypes" Category="Microsoft.Usage" CheckId="CA2236">
+   <Name>Basisklassenmethoden auf ISerializable-Typen aufrufen</Name>
+   <Description>Abgeleitete ISerializable-Typen müssen den Magic-Konstruktor und die GetObjectData-Methode der Basisklasse aufrufen.</Description>
+   <Resolution Name="Default">Die {0}-Methode sollte so geändert werden, dass sie ihre Basisklassenimplementierung aufruft.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182326.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237">
+   <Name>ISerializable-Typen mit SerializableAttribute markieren</Name>
+   <Description>Die System.Runtime.Serialization.ISerializable-Schnittstelle lässt zu, dass der Typ seine Serialisierung anpasst, während das Serializable-Attribut es der Common Language Runtime ermöglicht, den Typ als serialisierbar zu erkennen.</Description>
+   <Resolution Name="Default">Fügen Sie {0} [Serializable] hinzu, da dieser Typ ISerializable implementiert.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182350.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategorie</String>
+  <String Key="Certainty">Sicherheit</String>
+  <String Key="CollapseAll">Alle reduzieren</String>
+  <String Key="CheckId">Prüf-ID</String>
+  <String Key="Error">Fehler</String>
+  <String Key="Errors">Fehler</String>
+  <String Key="ExpandAll">Alle erweitern</String>
+  <String Key="Help">Hilfe</String>
+  <String Key="Line">Zeile</String>
+  <String Key="Messages">Meldung(en)</String>
+  <String Key="LocationNotStoredInPdb">[Nicht in PDB gespeicherter Speicherort]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Auflösung</String>
+  <String Key="Rule">Regel</String>
+  <String Key="RuleFile">Regeldatei</String>
+  <String Key="RuleDescription">Regelbeschreibung</String>
+  <String Key="Source">Quelle</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Ziel</String>
+  <String Key="Warning">Warnung</String>
+  <String Key="Warnings">Warnung(en)</String>
+  <String Key="ReportTitle">Codeanalysebericht</String>
+ </Localized>
+</FxCopReport>

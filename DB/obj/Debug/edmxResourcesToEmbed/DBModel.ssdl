@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bfmsModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="marketbook">
+    <Key>
+      <PropertyRef Name="MarketId" />
+      <PropertyRef Name="RefreshNr" />
+    </Key>
+    <Property Name="MarketId" Type="text" Nullable="false" />
+    <Property Name="RefreshNr" Type="int" Nullable="false" />
+    <Property Name="RefreshTS" Type="timestamp" Precision="0" />
+    <Property Name="IsMarketDataDelayed" Type="enum" />
+    <Property Name="Status" Type="enum" />
+    <Property Name="BetDelay" Type="int" />
+    <Property Name="IsInplay" Type="enum" />
+    <Property Name="NumberOfWinners" Type="int" />
+    <Property Name="NumberOfRunners" Type="int" />
+    <Property Name="NumberOfActiveRunners" Type="int" />
+    <Property Name="TotalMatched" Type="double" />
+    <Property Name="TotalAvailable" Type="double" />
+    <Property Name="OVRBack" Type="double" />
+    <Property Name="OVRLay" Type="double" />
+  </EntityType>
+  <EntityType Name="marketcatalogue">
+    <Key>
+      <PropertyRef Name="MarketId" />
+    </Key>
+    <Property Name="MarketId" Type="text" Nullable="false" />
+    <Property Name="MarketName" Type="text" />
+    <Property Name="MarketDescr" Type="text" />
+    <Property Name="IsMarketDataDelayed" Type="enum" />
+    <Property Name="EventType" Type="text" />
+    <Property Name="LocalStartTime" Type="datetime" Precision="0" />
+  </EntityType>
+  <EntityType Name="marketdescription">
+    <Key>
+      <PropertyRef Name="MarketId" />
+    </Key>
+    <Property Name="MarketId" Type="text" Nullable="false" />
+    <Property Name="IsPersistenceEnabled" Type="enum" />
+    <Property Name="IsBspMarket" Type="enum" />
+    <Property Name="MarketTime" Type="datetime" Precision="0" />
+    <Property Name="IsTurnInPlayEnabled" Type="enum" />
+    <Property Name="MarketType" Type="text" />
+    <Property Name="MarketBaseRate" Type="double" />
+    <Property Name="IsDiscountAllowed" Type="enum" />
+    <Property Name="Wallet" Type="text" />
+    <Property Name="Rules" Type="text" />
+    <Property Name="RulesHasDate" Type="enum" />
+    <Property Name="Clarifications" Type="text" />
+  </EntityType>
+  <EntityType Name="runner">
+    <Key>
+      <PropertyRef Name="MarketId" />
+      <PropertyRef Name="SelectionId" />
+      <PropertyRef Name="RefreshNr" />
+    </Key>
+    <Property Name="MarketId" Type="text" Nullable="false" />
+    <Property Name="SelectionId" Type="int" Nullable="false" />
+    <Property Name="RefreshNr" Type="int" Nullable="false" />
+    <Property Name="Name" Type="text" Nullable="false" />
+    <Property Name="RunnerStatus" Type="enum" Nullable="false" />
+    <Property Name="RemovalDate" Type="datetime" Precision="0" />
+    <Property Name="Handicap" Type="double" />
+    <Property Name="AdjustmentFactor" Type="double" />
+    <Property Name="ToBackTotal" Type="double" />
+    <Property Name="ToLayTotal" Type="double" />
+    <Property Name="BackLayRatio" Type="double" />
+    <Property Name="LastPriceTraded" Type="double" />
+    <Property Name="VolPrice" Type="double" />
+    <Property Name="AvgPrice" Type="double" />
+    <Property Name="Matched" Type="double" />
+    <Property Name="MatchedTotal" Type="double" />
+    <Property Name="VolumeBack" Type="double" />
+    <Property Name="VolumeLay" Type="double" />
+    <Property Name="InsMoneyBack" Type="double" />
+    <Property Name="InsMoneyLay" Type="double" />
+    <Property Name="Indikator1" Type="double" />
+    <Property Name="Indikator2" Type="double" />
+  </EntityType>
+  <EntityType Name="runnerdescription">
+    <Key>
+      <PropertyRef Name="MarketId" />
+      <PropertyRef Name="SelectionId" />
+    </Key>
+    <Property Name="MarketId" Type="text" Nullable="false" />
+    <Property Name="SelectionId" Type="int" Nullable="false" />
+    <Property Name="RunnerName" Type="text" />
+    <Property Name="Handicap" Type="double" />
+  </EntityType>
+  <EntityType Name="volume">
+    <Key>
+      <PropertyRef Name="MarketId" />
+      <PropertyRef Name="SelectionId" />
+      <PropertyRef Name="RefreshNr" />
+      <PropertyRef Name="LaufNr" />
+    </Key>
+    <Property Name="MarketId" Type="text" Nullable="false" />
+    <Property Name="SelectionId" Type="int" Nullable="false" />
+    <Property Name="RefreshNr" Type="int" Nullable="false" />
+    <Property Name="LaufNr" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Type" Type="enum" />
+    <Property Name="Price" Type="double" />
+    <Property Name="Size" Type="double" />
+  </EntityType>
+  <EntityContainer Name="bfmsModelStoreContainer">
+    <EntitySet Name="marketbook" EntityType="Self.marketbook" Schema="bfms" store:Type="Tables" />
+    <EntitySet Name="marketcatalogue" EntityType="Self.marketcatalogue" Schema="bfms" store:Type="Tables" />
+    <EntitySet Name="marketdescription" EntityType="Self.marketdescription" Schema="bfms" store:Type="Tables" />
+    <EntitySet Name="runner" EntityType="Self.runner" Schema="bfms" store:Type="Tables" />
+    <EntitySet Name="runnerdescription" EntityType="Self.runnerdescription" Schema="bfms" store:Type="Tables" />
+    <EntitySet Name="volume" EntityType="Self.volume" Schema="bfms" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

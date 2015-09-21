@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bfmsModelStoreContainer" CdmEntityContainer="bfmsEntities">
+    <EntitySetMapping Name="marketbooks">
+      <EntityTypeMapping TypeName="bfmsModel.marketbook">
+        <MappingFragment StoreEntitySet="marketbook">
+          <ScalarProperty Name="MarketId" ColumnName="MarketId" />
+          <ScalarProperty Name="RefreshNr" ColumnName="RefreshNr" />
+          <ScalarProperty Name="RefreshTS" ColumnName="RefreshTS" />
+          <ScalarProperty Name="IsMarketDataDelayed" ColumnName="IsMarketDataDelayed" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="BetDelay" ColumnName="BetDelay" />
+          <ScalarProperty Name="IsInplay" ColumnName="IsInplay" />
+          <ScalarProperty Name="NumberOfWinners" ColumnName="NumberOfWinners" />
+          <ScalarProperty Name="NumberOfRunners" ColumnName="NumberOfRunners" />
+          <ScalarProperty Name="NumberOfActiveRunners" ColumnName="NumberOfActiveRunners" />
+          <ScalarProperty Name="TotalMatched" ColumnName="TotalMatched" />
+          <ScalarProperty Name="TotalAvailable" ColumnName="TotalAvailable" />
+          <ScalarProperty Name="OVRBack" ColumnName="OVRBack" />
+          <ScalarProperty Name="OVRLay" ColumnName="OVRLay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="marketcatalogues">
+      <EntityTypeMapping TypeName="bfmsModel.marketcatalogue">
+        <MappingFragment StoreEntitySet="marketcatalogue">
+          <ScalarProperty Name="MarketId" ColumnName="MarketId" />
+          <ScalarProperty Name="MarketName" ColumnName="MarketName" />
+          <ScalarProperty Name="MarketDescr" ColumnName="MarketDescr" />
+          <ScalarProperty Name="IsMarketDataDelayed" ColumnName="IsMarketDataDelayed" />
+          <ScalarProperty Name="EventType" ColumnName="EventType" />
+          <ScalarProperty Name="LocalStartTime" ColumnName="LocalStartTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="marketdescriptions">
+      <EntityTypeMapping TypeName="bfmsModel.marketdescription">
+        <MappingFragment StoreEntitySet="marketdescription">
+          <ScalarProperty Name="MarketId" ColumnName="MarketId" />
+          <ScalarProperty Name="IsPersistenceEnabled" ColumnName="IsPersistenceEnabled" />
+          <ScalarProperty Name="IsBspMarket" ColumnName="IsBspMarket" />
+          <ScalarProperty Name="MarketTime" ColumnName="MarketTime" />
+          <ScalarProperty Name="IsTurnInPlayEnabled" ColumnName="IsTurnInPlayEnabled" />
+          <ScalarProperty Name="MarketType" ColumnName="MarketType" />
+          <ScalarProperty Name="MarketBaseRate" ColumnName="MarketBaseRate" />
+          <ScalarProperty Name="IsDiscountAllowed" ColumnName="IsDiscountAllowed" />
+          <ScalarProperty Name="Wallet" ColumnName="Wallet" />
+          <ScalarProperty Name="Rules" ColumnName="Rules" />
+          <ScalarProperty Name="RulesHasDate" ColumnName="RulesHasDate" />
+          <ScalarProperty Name="Clarifications" ColumnName="Clarifications" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="runners">
+      <EntityTypeMapping TypeName="bfmsModel.runner">
+        <MappingFragment StoreEntitySet="runner">
+          <ScalarProperty Name="MarketId" ColumnName="MarketId" />
+          <ScalarProperty Name="SelectionId" ColumnName="SelectionId" />
+          <ScalarProperty Name="RefreshNr" ColumnName="RefreshNr" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="RunnerStatus" ColumnName="RunnerStatus" />
+          <ScalarProperty Name="RemovalDate" ColumnName="RemovalDate" />
+          <ScalarProperty Name="Handicap" ColumnName="Handicap" />
+          <ScalarProperty Name="AdjustmentFactor" ColumnName="AdjustmentFactor" />
+          <ScalarProperty Name="ToBackTotal" ColumnName="ToBackTotal" />
+          <ScalarProperty Name="ToLayTotal" ColumnName="ToLayTotal" />
+          <ScalarProperty Name="BackLayRatio" ColumnName="BackLayRatio" />
+          <ScalarProperty Name="LastPriceTraded" ColumnName="LastPriceTraded" />
+          <ScalarProperty Name="VolPrice" ColumnName="VolPrice" />
+          <ScalarProperty Name="AvgPrice" ColumnName="AvgPrice" />
+          <ScalarProperty Name="Matched" ColumnName="Matched" />
+          <ScalarProperty Name="MatchedTotal" ColumnName="MatchedTotal" />
+          <ScalarProperty Name="VolumeBack" ColumnName="VolumeBack" />
+          <ScalarProperty Name="VolumeLay" ColumnName="VolumeLay" />
+          <ScalarProperty Name="InsMoneyBack" ColumnName="InsMoneyBack" />
+          <ScalarProperty Name="InsMoneyLay" ColumnName="InsMoneyLay" />
+          <ScalarProperty Name="Indikator1" ColumnName="Indikator1" />
+          <ScalarProperty Name="Indikator2" ColumnName="Indikator2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="runnerdescriptions">
+      <EntityTypeMapping TypeName="bfmsModel.runnerdescription">
+        <MappingFragment StoreEntitySet="runnerdescription">
+          <ScalarProperty Name="MarketId" ColumnName="MarketId" />
+          <ScalarProperty Name="SelectionId" ColumnName="SelectionId" />
+          <ScalarProperty Name="RunnerName" ColumnName="RunnerName" />
+          <ScalarProperty Name="Handicap" ColumnName="Handicap" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="volumes">
+      <EntityTypeMapping TypeName="bfmsModel.volume">
+        <MappingFragment StoreEntitySet="volume">
+          <ScalarProperty Name="MarketId" ColumnName="MarketId" />
+          <ScalarProperty Name="SelectionId" ColumnName="SelectionId" />
+          <ScalarProperty Name="RefreshNr" ColumnName="RefreshNr" />
+          <ScalarProperty Name="LaufNr" ColumnName="LaufNr" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

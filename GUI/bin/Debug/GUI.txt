@@ -1,0 +1,5 @@
+[Header]\r\n2015-03-12 14:52:12,720 [9] FATAL DB.DBAccess DBDB.DBException: SELECT * FROM marketbook JOIN runner USING(Marketid,RefreshNr) JOIN volume USING (Marketid,Refreshnr,Selectionid) WHERE Marketid=@MarketId  AND refreshNr=(SELECT MAX(RefreshNr) FROM marbook WHERE Marketid=@MarketId AND IsInPlay='False')PARAMS|@MarketId=1.117563483
+   bei DB.DBAPI.GetMarketBooks(List`1 marketIdLst) in e:\Projekte\BF\BFMS\BFMS\BFMS\DB\DBAPI.cs:Zeile 203.
+   bei BLogic.MarketUpdate.PerformMarketUpdate() in e:\Projekte\BF\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:Zeile 151.SELECT * FROM marketbook JOIN runner USING(Marketid,RefreshNr) JOIN volume USING (Marketid,Refreshnr,Selectionid) WHERE Marketid=@MarketId  AND refreshNr=(SELECT MAX(RefreshNr) FROM marbook WHERE Marketid=@MarketId AND IsInPlay='False')PARAMS|@MarketId=1.117563483   bei DB.DBAPI.GetMarketBooks(List`1 marketIdLst) in e:\Projekte\BF\BFMS\BFMS\BFMS\DB\DBAPI.cs:Zeile 203.
+   bei BLogic.MarketUpdate.PerformMarketUpdate() in e:\Projekte\BF\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:Zeile 151.
+[Footer]\r\n

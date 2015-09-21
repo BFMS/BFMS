@@ -1,0 +1,333 @@
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\BFAPI.dll
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\Shared.dll
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\Shared.pdb
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+E:\Projekte\BF\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+E:\Projekte\BF\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+E:\Projekte\BF\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+E:\Projekte\BF\BFMS\BFAPI\obj\Debug\BFAPI.dll
+E:\Projekte\BF\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\Shared.dll
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\Shared.pdb
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\obj\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+D:\SVN\Workspace\BFMS\BMFSNeu\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\Newtonsoft.Json.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\Shared.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\System.Reactive.Core.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\System.Reactive.Linq.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\Shared.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\Newtonsoft.Json.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\System.Reactive.Core.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\System.Reactive.Linq.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\obj\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS - Kopie\BFAPI\obj\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+E:\Projekte\BF\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\Shared.dll
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\Shared.pdb
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\obj\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS 29.12.2014\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+D:\SVN\Workspace\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+F:\Projekte\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+F:\Projekte\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+F:\Projekte\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+F:\Projekte\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+F:\Projekte\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+F:\Projekte\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+F:\Projekte\BFMS\BFMS\BFMS\BFAPI\bin\Debug\TA-Lib-Core.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\log4net.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\TA-Lib-Core.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\log4net.xml
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+F:\Projekte\BFMS\Backup\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\log4net.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\TA-Lib-Core.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\log4net.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\log4net.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\TA-Lib-Core.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\log4net.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+F:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFDO\Event.cs
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.pdb
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\log4net.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\TA-Lib-Core.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Shared.pdb
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\log4net.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\Newtonsoft.Json.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Core.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Interfaces.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.Linq.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\System.Reactive.PlatformServices.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csprojResolveAssemblyReference.cache
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.Properties.Resources.resources
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.csproj.GenerateResource.Cache
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.dll
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\obj\Debug\BFAPI.pdb
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll.CodeAnalysisLog.xml
+E:\Projekte\BF\BFMS\BFMS\BFMS\BFAPI\bin\Debug\BFAPI.dll.lastcodeanalysissucceeded

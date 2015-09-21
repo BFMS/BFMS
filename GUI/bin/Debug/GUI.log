@@ -1,0 +1,214 @@
+2015-05-16 01:31:32,745 [21] FATAL DB.DBAccess (null) - mscorlibSystem.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Shared.BFDO.Runner.calcRunnerValues() in f:\Projekte\BFMS\BFMS\BFMS\BFMS\Shared\BFDO\Runner.cs:line 138
+   at BLogic.MarketUpdate.PerformMarketUpdate() in f:\Projekte\BFMS\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:line 193Nullable object must have a value.   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Shared.BFDO.Runner.calcRunnerValues() in f:\Projekte\BFMS\BFMS\BFMS\BFMS\Shared\BFDO\Runner.cs:line 138
+   at BLogic.MarketUpdate.PerformMarketUpdate() in f:\Projekte\BFMS\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:line 193
+2015-05-20 15:36:43,787 [15] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-05-20 15:41:37,585 [15] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-05-20 15:41:43,219 [15] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-05-20 15:41:47,769 [15] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-05-20 15:42:59,945 [15] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-05-20 16:02:13,079 [20] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-05-20 16:15:43,121 [20] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-05-20 17:35:36,049 [20] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-05-20 17:35:36,983 [20] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-05-22 21:13:10,704 [20] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-05-22 22:02:58,487 [20] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 385
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 196
+2015-06-07 22:40:11,846 [19] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO volume (MarketId, SelectionId,RefreshNr,Type,Price,Size) VALUES (@MarketId0,@SelectionId0,@RefreshNr0,@Type0,@Price0,@Size0),(@MarketId1,@SelectionId1,@RefreshNr1,@Type1,@Price1,@Size1);9,47
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException)
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams)
+   at DB.DBAccess.InsertVolume(Runner runner, String marketId)INSERT INTO volume (MarketId, SelectionId,RefreshNr,Type,Price,Size) VALUES (@MarketId0,@SelectionId0,@RefreshNr0,@Type0,@Price0,@Size0),(@MarketId1,@SelectionId1,@RefreshNr1,@Type1,@Price1,@Size1);9,47   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException)
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams)
+   at DB.DBAccess.InsertVolume(Runner runner, String marketId)
+2015-06-07 22:46:23,870 [19] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO volume (MarketId, SelectionId,RefreshNr,Type,Price,Size) VALUES (@MarketId0,@SelectionId0,@RefreshNr0,@Type0,@Price0,@Size0),(@MarketId1,@SelectionId1,@RefreshNr1,@Type1,@Price1,@Size1),(@MarketId2,@SelectionId2,@RefreshNr2,@Type2,@Price2,@Size2);36,58
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException)
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams)
+   at DB.DBAccess.InsertVolume(Runner runner, String marketId)INSERT INTO volume (MarketId, SelectionId,RefreshNr,Type,Price,Size) VALUES (@MarketId0,@SelectionId0,@RefreshNr0,@Type0,@Price0,@Size0),(@MarketId1,@SelectionId1,@RefreshNr1,@Type1,@Price1,@Size1),(@MarketId2,@SelectionId2,@RefreshNr2,@Type2,@Price2,@Size2);36,58   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException)
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams)
+   at DB.DBAccess.InsertVolume(Runner runner, String marketId)
+2015-06-08 13:24:53,325 [3] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO volume (MarketId, SelectionId,RefreshNr,Type,Price,Size) VALUES (@MarketId0,@SelectionId0,@RefreshNr0,@Type0,@Price0,@Size0);5,48000000000002
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertVolume(Runner runner, String marketId) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 244INSERT INTO volume (MarketId, SelectionId,RefreshNr,Type,Price,Size) VALUES (@MarketId0,@SelectionId0,@RefreshNr0,@Type0,@Price0,@Size0);5,48000000000002   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertVolume(Runner runner, String marketId) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 244
+2015-06-08 15:09:37,895 [3] FATAL DB.DBAccess (null) - DBSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams)
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException)
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams)
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks)Object reference not set to an instance of an object.   at DB.MySqlHandler.ParamToStr(MySqlParameter[] cmdParams)
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException)
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams)
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks)
+2015-06-08 18:05:58,582 [20] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO volume (MarketId, SelectionId,RefreshNr,Type,Price,Size) VALUES (@MarketId0,@SelectionId0,@RefreshNr0,@Type0,@Price0,@Size0);132,58
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertVolume(Runner runner, String marketId) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 244INSERT INTO volume (MarketId, SelectionId,RefreshNr,Type,Price,Size) VALUES (@MarketId0,@SelectionId0,@RefreshNr0,@Type0,@Price0,@Size0);132,58   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertVolume(Runner runner, String marketId) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 244
+2015-06-08 23:00:12,431 [20] FATAL DB.DBAccess (null) - DBDB.DBException: SELECT MAX(RefreshNr) from marketbook where Marketid=@MarketId1.119111339
+   at DB.MySqlHandler.ExecScalar(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 311
+   at DB.DBAccess.MarketBookLastRefhNr(String marketId) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 361SELECT MAX(RefreshNr) from marketbook where Marketid=@MarketId1.119111339   at DB.MySqlHandler.ExecScalar(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 311
+   at DB.DBAccess.MarketBookLastRefhNr(String marketId) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 361
+2015-06-09 13:42:02,602 [3] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO volume (MarketId, SelectionId,RefreshNr,Type,Price,Size) VALUES (@MarketId0,@SelectionId0,@RefreshNr0,@Type0,@Price0,@Size0);62,6999999999998
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertVolume(Runner runner, MarketBook marketBook) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 251INSERT INTO volume (MarketId, SelectionId,RefreshNr,Type,Price,Size) VALUES (@MarketId0,@SelectionId0,@RefreshNr0,@Type0,@Price0,@Size0);62,6999999999998   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertVolume(Runner runner, MarketBook marketBook) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 251
+2015-06-09 17:28:20,041 [20] FATAL DB.DBAccess (null) - mscorlibSystem.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server. ---> System.IO.IOException: Unable to read data from the transport connection: Eine vorhandene Verbindung wurde vom Remotehost geschlossen. ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Security._SslStream.EndRead(IAsyncResult asyncResult)
+   at System.Net.TlsStream.EndRead(IAsyncResult asyncResult)
+   at System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   at System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at BFAPI.Network.<>c__DisplayClass8.<Request>b__6(IAsyncResult asyncResult) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\Network.cs:line 157
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)One or more errors occurred.   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at BFAPI.JsonAPI.GetMarketBooks(List`1 marketIdLst) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\BFAPI\JsonAPI.cs:line 48
+   at BLogic.MarketUpdate.PerformMarketUpdate() in f:\Projekte\BFMS\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:line 174
+2015-06-10 15:13:44,532 [15] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,005
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,005   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158
+2015-06-10 15:15:34,381 [15] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,009
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,009   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158
+2015-06-10 15:20:20,766 [15] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,015
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,015   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 215
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158
+2015-06-10 19:29:09,629 [19] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,018
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 219
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,018   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 219
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158
+2015-06-10 19:45:55,818 [19] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,021
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 219
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,021   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 219
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158
+2015-06-10 20:06:32,953 [19] FATAL DB.DBAccess (null) - DBDB.DBException: INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,017
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 219
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158INSERT INTO marketbook (MarketId, RefreshNr,RefreshTS,IsMarketDataDelayed,Status,BetDelay,IsInplay,NumberOfWinners,NumberOfRunners,NumberOfActiveRunners,TotalMatched,TotalAvailable,OVRBack,OVRLay) VALUES (@MarketId,@RefreshNr,@RefreshTS,@IsMarketDataDelayed,@Status,@BetDelay,@IsInplay,@NumberOfWinners,@NumberOfRunners,@NumberOfActiveRunners,@TotalMatched,@TotalAvailable,@OVRBack,@OVRLay);1,017   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams, Boolean ignoreException) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 219
+   at DB.MySqlHandler.ExecNonQuery(String sql, MySqlParameter[] cmdParams) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\MySqlHandler.cs:line 197
+   at DB.DBAccess.InsertMarketBook(List`1 marketBooks) in f:\Projekte\BFMS\BFMS\BFMS\BFMS\DB\DBAccess.cs:line 158
+2015-07-16 17:18:41,257 [10] FATAL DB.DBAccess (null) - mscorlibSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: key
+   bei System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   bei BLogic.MarketUpdate.PerformMarketUpdate() in e:\Projekte\BF\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:Zeile 180.Der Wert darf nicht NULL sein.
+Parametername: key   bei System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   bei BLogic.MarketUpdate.PerformMarketUpdate() in e:\Projekte\BF\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:Zeile 180.
+2015-07-24 11:15:42,398 [11] FATAL DB.DBAccess (null) - mscorlibSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: key
+   bei System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   bei BLogic.MarketUpdate.PerformMarketUpdate() in e:\Projekte\BF\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:Zeile 180.Der Wert darf nicht NULL sein.
+Parametername: key   bei System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   bei BLogic.MarketUpdate.PerformMarketUpdate() in e:\Projekte\BF\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:Zeile 180.
+2015-09-17 13:29:15,428 [9] FATAL DB.DBAccess (null) - System.Data.DataSetExtensionsSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: source
+   bei System.Data.DataTableExtensions.CopyToDataTable[T](IEnumerable`1 source)
+   bei DB.DBAccess.GetDataSeries(String marketId, Int64 selId, DataSeries ds) in e:\Projekte\BF\BFMS\BFMS\BFMS\DB\DBAccess.cs:Zeile 375.Der Wert darf nicht NULL sein.
+Parametername: source   bei System.Data.DataTableExtensions.CopyToDataTable[T](IEnumerable`1 source)
+   bei DB.DBAccess.GetDataSeries(String marketId, Int64 selId, DataSeries ds) in e:\Projekte\BF\BFMS\BFMS\BFMS\DB\DBAccess.cs:Zeile 375.
+2015-09-17 15:01:03,855 [11] FATAL DB.DBAccess (null) - mscorlibSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: key
+   bei System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   bei BLogic.MarketUpdate.PerformMarketUpdate() in e:\Projekte\BF\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:Zeile 180.Der Wert darf nicht NULL sein.
+Parametername: key   bei System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   bei BLogic.MarketUpdate.PerformMarketUpdate() in e:\Projekte\BF\BFMS\BFMS\BFMS\BLogic\MarketUpdate.cs:Zeile 180.

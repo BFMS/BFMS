@@ -1,0 +1,40 @@
+
+TAP is the recommended asynchronous design pattern for new development
+ 
+instead of Asynchronous Programming Model (APM) and Event-based Asynchronous Pattern (EAP) (the latter includes the BackgroundWorker Class).
+
+Then, the recommended solution for new development is:
+ 1.
+Asynchronous implementation of an event handler (Yes, that's all):
+private async void Button_Clicked(object sender, EventArgs e)
+{
+    var progress = new Progress<string>(s => label.Text = s);
+    await Task.Factory.StartNew(() => SecondThreadConcern.LongWork(progress),
+                                TaskCreationOptions.LongRunning);
+    label.Text = "completed";
+}
+ 2.
+Implementation of the second thread that notifies the UI thread:
+class SecondThreadConcern
+{
+    public static void LongWork(IProgress<string> progress)
+    {
+        // Perform a long running work...
+        for (var i = 0; i < 10; i++)
+        {
+            Task.Delay(500).Wait();
+            progress.Report(i.ToString());
+        }
+    }
+}
+ 
+Notice the following: 
+1.Short and clean code written in sequential manner without callbacks and explicit threads.
+ 2.Task instead of Thread.
+ 3.async keyword, that allows to use await which in turn prevent the event handler from reaching the completion state till the task finished and in the meantime doesn't block the UI thread.
+ 4.Progress class (see IProgress Interface) that supports Separation of Concerns (SoC) design principle and doesn't require explicit dispatcher and invoking. It uses the current SynchronizationContext from its creation place (here the UI thread).
+ 5.TaskCreationOptions.LongRunning that hints to do not queue the task into ThreadPool.
+ 
+For a more verbose examples see: The Future of C#: Good things come to those who 'await' by Joseph Albahari.
+
+See also about UI Threading Model concept.

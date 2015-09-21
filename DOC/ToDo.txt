@@ -1,0 +1,14 @@
+Backvolume/lay
+InsMoneyBack/Lay in Gui in Prozenten
+gui nur ganzzahlige Beträge 
+Grafik: Säulendiagramm Back/LAy
+
+Test InsMoneyBack in DB geschrieben
+
+DB: table volume Feld Type:
+ATB
+ATL
+TVOL -> VOLTB,VOLTL
+verschiedene Achsen, mit MAVG tradedVol
+
+in indikator preis increment einbeziehen

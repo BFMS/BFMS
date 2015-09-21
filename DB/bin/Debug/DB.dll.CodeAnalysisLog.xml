@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="E:\Projekte\BF\BFMS\BFMS\BFMS\DB\bin\Debug\DB.dll">
+   <Modules>
+    <Module Name="db.dll">
+     <Messages>
+      <Message TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016" Status="Active" Created="2015-09-21 15:00:07Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Fügen Sie "'DB.dll'" ein AssemblyVersion-Attribut hinzu.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="DB">
+       <Types>
+        <Type Name="bfmsEntities" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2015-09-21 15:00:07Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'bfmsEntities' ist als ComVisible(true) markiert, verfügt jedoch in der Objekthierarchie über die folgenden ComVisible(false)-Typen: 'DbContext'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DBAccess" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ToDataTable(System.Data.Entity.DbContext,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="SQL-Abfragen auf Sicherheitsrisiken überprüfen" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-09-21 15:00:07Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="E:\Projekte\BF\BFMS\BFMS\BFMS\DB" File="DBAccess.cs" Line="420">Die in 'DBAccess.ToDataTable(DbContext, string)' an 'MySqlDataAdapter.MySqlDataAdapter(string, string)' übergebene Abfragezeichenfolge könnte die folgenden 'sql'-Variablen enthalten. Wenn eine dieser Variablen aus Benutzereingaben stammt, sollten Sie eine gespeicherte Prozedur oder eine parametrisierte SQL-Abfrage verwenden, anstatt die Abfrage mit Zeichenfolgenverkettungen zu erstellen.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DBAPI" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetMarketBook(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2015-09-21 15:00:07Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\Projekte\BF\BFMS\BFMS\BFMS\DB" File="DBAPI.cs" Line="196">"'DBAPI.GetMarketBook(string)'" löst eine aufgefangene Ausnahme erneut aus und legt sie ausdrücklich als Argument fest. Verwenden Sie "Throw" stattdessen ohne Argument, um den Stapelspeicherort beizubehalten, an dem die Ausnahme ursprünglich ausgelöst wurde.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetMarketBooks(System.Collections.Generic.List`1&lt;System.String&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2015-09-21 15:00:07Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\Projekte\BF\BFMS\BFMS\BFMS\DB" File="DBAPI.cs" Line="216">"'DBAPI.GetMarketBooks(List&lt;string&gt;)'" löst eine aufgefangene Ausnahme erneut aus und legt sie ausdrücklich als Argument fest. Verwenden Sie "Throw" stattdessen ohne Argument, um den Stapelspeicherort beizubehalten, an dem die Ausnahme ursprünglich ausgelöst wurde.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetMarkets()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2015-09-21 15:00:07Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\Projekte\BF\BFMS\BFMS\BFMS\DB" File="DBAPI.cs" Line="76">"'DBAPI.GetMarkets()'" löst eine aufgefangene Ausnahme erneut aus und legt sie ausdrücklich als Argument fest. Verwenden Sie "Throw" stattdessen ohne Argument, um den Stapelspeicherort beizubehalten, an dem die Ausnahme ursprünglich ausgelöst wurde.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405">
+   <Name>Für COM sichtbare Basistypen sollten für COM sichtbar sein</Name>
+   <Description>Für COM sichtbare Typen sollten über eine Objekthierarchie verfügen, die einheitlich für COM sichtbar ist.</Description>
+   <Resolution Name="Default">{0} ist als ComVisible(true) markiert, verfügt jedoch in der Objekthierarchie über die folgenden ComVisible(false)-Typen: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182202.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016">
+   <Name>Assemblys mit AssemblyVersionAttribute markieren</Name>
+   <Description>Assemblys müssen Versionsnummern verwenden. Die Versionsnummer ist Bestandteil der Identität einer Assembly. Die Versionszuweisung erfolgt über das AssemblyVersion-Attribut.</Description>
+   <Resolution Name="Default">Fügen Sie "{0}" ein AssemblyVersion-Attribut hinzu.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182155.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200">
+   <Name>Erneut ausführen, um Stapeldetails beizubehalten</Name>
+   <Description>Verwenden Sie die Anweisung zum erneuten Auslösen von IL, um die ursprünglichen Stapeldetails beizubehalten, wenn Sie eine aufgefangene Ausnahme erneut auslösen.</Description>
+   <Resolution Name="Default">"{0}" löst eine aufgefangene Ausnahme erneut aus und legt sie ausdrücklich als Argument fest. Verwenden Sie "Throw" stattdessen ohne Argument, um den Stapelspeicherort beizubehalten, an dem die Ausnahme ursprünglich ausgelöst wurde.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182363.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="SQL-Abfragen auf Sicherheitsrisiken überprüfen" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>SQL-Abfragen auf Sicherheitsrisiken überprüfen</Name>
+   <Description>Eine SQL-Befehlszeichenfolge, die aus Benutzereingaben erstellt wird, ist anfällig für Angriffe durch Einschleusung von SQL-Befehlen. Microsoft SQL Server und andere Datenbankserver unterstützen gespeicherte Prozeduren und parametrisierte SQL-Abfragen, durch die das Risiko von Angriffen durch Einschleusung von Befehlen reduziert wird.</Description>
+   <Resolution Name="WithNonLiterals">Die in {1} an {0} übergebene Abfragezeichenfolge könnte die folgenden {2}-Variablen enthalten. Wenn eine dieser Variablen aus Benutzereingaben stammt, sollten Sie eine gespeicherte Prozedur oder eine parametrisierte SQL-Abfrage verwenden, anstatt die Abfrage mit Zeichenfolgenverkettungen zu erstellen.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategorie</String>
+  <String Key="Certainty">Sicherheit</String>
+  <String Key="CollapseAll">Alle reduzieren</String>
+  <String Key="CheckId">Prüf-ID</String>
+  <String Key="Error">Fehler</String>
+  <String Key="Errors">Fehler</String>
+  <String Key="ExpandAll">Alle erweitern</String>
+  <String Key="Help">Hilfe</String>
+  <String Key="Line">Zeile</String>
+  <String Key="Messages">Meldung(en)</String>
+  <String Key="LocationNotStoredInPdb">[Nicht in PDB gespeicherter Speicherort]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Auflösung</String>
+  <String Key="Rule">Regel</String>
+  <String Key="RuleFile">Regeldatei</String>
+  <String Key="RuleDescription">Regelbeschreibung</String>
+  <String Key="Source">Quelle</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Ziel</String>
+  <String Key="Warning">Warnung</String>
+  <String Key="Warnings">Warnung(en)</String>
+  <String Key="ReportTitle">Codeanalysebericht</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{164D93C3-5786-496E-AD3E-34810E1A7224}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA3AE819-93EF-434F-89FE-E44CB376F225} = {CA3AE819-93EF-434F-89FE-E44CB376F225}
+		{AF86B62A-E24E-43CA-9FEB-314BE3DE685F} = {AF86B62A-E24E-43CA-9FEB-314BE3DE685F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFAPI", "BFAPI\BFAPI.csproj", "{CA3AE819-93EF-434F-89FE-E44CB376F225}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF86B62A-E24E-43CA-9FEB-314BE3DE685F} = {AF86B62A-E24E-43CA-9FEB-314BE3DE685F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{AF86B62A-E24E-43CA-9FEB-314BE3DE685F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLogic", "BLogic\BLogic.csproj", "{6CA825B0-A477-43EA-A714-68358C33D7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{B3E3DBDB-41B2-422B-A687-8FF488C20540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{164D93C3-5786-496E-AD3E-34810E1A7224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164D93C3-5786-496E-AD3E-34810E1A7224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164D93C3-5786-496E-AD3E-34810E1A7224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164D93C3-5786-496E-AD3E-34810E1A7224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3AE819-93EF-434F-89FE-E44CB376F225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3AE819-93EF-434F-89FE-E44CB376F225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3AE819-93EF-434F-89FE-E44CB376F225}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA3AE819-93EF-434F-89FE-E44CB376F225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3AE819-93EF-434F-89FE-E44CB376F225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF86B62A-E24E-43CA-9FEB-314BE3DE685F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF86B62A-E24E-43CA-9FEB-314BE3DE685F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF86B62A-E24E-43CA-9FEB-314BE3DE685F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AF86B62A-E24E-43CA-9FEB-314BE3DE685F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF86B62A-E24E-43CA-9FEB-314BE3DE685F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA825B0-A477-43EA-A714-68358C33D7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA825B0-A477-43EA-A714-68358C33D7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA825B0-A477-43EA-A714-68358C33D7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA825B0-A477-43EA-A714-68358C33D7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E3DBDB-41B2-422B-A687-8FF488C20540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E3DBDB-41B2-422B-A687-8FF488C20540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E3DBDB-41B2-422B-A687-8FF488C20540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E3DBDB-41B2-422B-A687-8FF488C20540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

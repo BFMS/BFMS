@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF86B62A-E24E-43CA-9FEB-314BE3DE685F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shared</RootNamespace>
+    <AssemblyName>Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Reactive.Core, Version=2.0.20823.0, Culture=neutral, PublicKeyToken=f300afd708cefcd3, processorArchitecture=MSIL" />
+    <Reference Include="System.Reactive.Linq, Version=2.0.20823.0, Culture=neutral, PublicKeyToken=f300afd708cefcd3, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TA-Lib-Core">
+      <HintPath>..\packages\TA-Lib.0.5.0.3\lib\TA-Lib-Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BFDO\AccountDetailsResponse.cs" />
+    <Compile Include="BFDO\AccountFundsResponse.cs" />
+    <Compile Include="BFDO\AccountStatementReport.cs" />
+    <Compile Include="BFDO\APINGException.cs" />
+    <Compile Include="BFDO\BetStatus.cs" />
+    <Compile Include="BFDO\CancelExecutionReport.cs" />
+    <Compile Include="BFDO\CancelInstruction.cs" />
+    <Compile Include="BFDO\CancelInstructionReport.cs" />
+    <Compile Include="BFDO\ClearedOrderSummary.cs" />
+    <Compile Include="BFDO\ClearedOrderSummaryReport.cs" />
+    <Compile Include="BFDO\Competition.cs" />
+    <Compile Include="BFDO\CompetitionResult.cs" />
+    <Compile Include="BFDO\CountryCodeResult.cs" />
+    <Compile Include="BFDO\CurrencyRate.cs" />
+    <Compile Include="BFDO\CurrentOrderSummary.cs" />
+    <Compile Include="BFDO\CurrentOrderSummaryReport.cs" />
+    <Compile Include="BFDO\Event.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="BFDO\EventResult.cs" />
+    <Compile Include="BFDO\EventType.cs" />
+    <Compile Include="BFDO\EventTypeResult.cs" />
+    <Compile Include="BFDO\ExBestOffersOverrides.cs" />
+    <Compile Include="BFDO\Exception.cs" />
+    <Compile Include="BFDO\ExchangePrices.cs" />
+    <Compile Include="BFDO\ExecutionReportErrorCode.cs" />
+    <Compile Include="BFDO\ExecutionReportStatus.cs" />
+    <Compile Include="BFDO\GroupBy.cs" />
+    <Compile Include="BFDO\IncludeItem.cs" />
+    <Compile Include="BFDO\InstructionReportErrorCode.cs" />
+    <Compile Include="BFDO\InstructionReportStatus.cs" />
+    <Compile Include="BFDO\ItemClass.cs" />
+    <Compile Include="BFDO\ItemDescription.cs" />
+    <Compile Include="BFDO\LimitOnCloseOrder.cs" />
+    <Compile Include="BFDO\LimitOrder.cs" />
+    <Compile Include="BFDO\MarketBettingType.cs" />
+    <Compile Include="BFDO\MarketBook.cs" />
+    <Compile Include="BFDO\MarketCatalogue.cs" />
+    <Compile Include="BFDO\MarketDescription.cs" />
+    <Compile Include="BFDO\MarketFilter.cs" />
+    <Compile Include="BFDO\MarketOnCloseOrder.cs" />
+    <Compile Include="BFDO\MarketProfitAndLoss.cs" />
+    <Compile Include="BFDO\MarketProjection.cs" />
+    <Compile Include="BFDO\MarketSort.cs" />
+    <Compile Include="BFDO\MarketStatus.cs" />
+    <Compile Include="BFDO\MarketTypeResult.cs" />
+    <Compile Include="BFDO\Match.cs" />
+    <Compile Include="BFDO\MatchProjection.cs" />
+    <Compile Include="BFDO\Order.cs" />
+    <Compile Include="BFDO\OrderBy.cs" />
+    <Compile Include="BFDO\OrderProjection.cs" />
+    <Compile Include="BFDO\OrderStatus.cs" />
+    <Compile Include="BFDO\OrderType.cs" />
+    <Compile Include="BFDO\PersistenceType.cs" />
+    <Compile Include="BFDO\PlaceExecutionReport.cs" />
+    <Compile Include="BFDO\PlaceInstruction.cs" />
+    <Compile Include="BFDO\PlaceInstructionReport.cs" />
+    <Compile Include="BFDO\PriceData.cs" />
+    <Compile Include="BFDO\PriceProjection.cs" />
+    <Compile Include="BFDO\PriceSize.cs" />
+    <Compile Include="BFDO\ReplaceExecutionReport.cs" />
+    <Compile Include="BFDO\ReplaceInstruction.cs" />
+    <Compile Include="BFDO\ReplaceInstructionReport.cs" />
+    <Compile Include="BFDO\RollUpModel.cs" />
+    <Compile Include="BFDO\Runner.cs" />
+    <Compile Include="BFDO\RunnerDescription.cs" />
+    <Compile Include="BFDO\RunnerId.cs" />
+    <Compile Include="BFDO\RunnerProfitAndLoss.cs" />
+    <Compile Include="BFDO\RunnerStatus.cs" />
+    <Compile Include="BFDO\Side.cs" />
+    <Compile Include="BFDO\SortDir.cs" />
+    <Compile Include="BFDO\StartingPrices.cs" />
+    <Compile Include="BFDO\StatementItem.cs" />
+    <Compile Include="BFDO\StatementLegacyData.cs" />
+    <Compile Include="BFDO\TimeGranularity.cs" />
+    <Compile Include="BFDO\TimeRange.cs" />
+    <Compile Include="BFDO\TimeRangeResult.cs" />
+    <Compile Include="BFDO\TransferResponse.cs" />
+    <Compile Include="BFDO\UpdateExecutionReport.cs" />
+    <Compile Include="BFDO\UpdateInstruction.cs" />
+    <Compile Include="BFDO\UpdateInstructionReport.cs" />
+    <Compile Include="BFDO\VenueResult.cs" />
+    <Compile Include="BFDO\Volume.cs" />
+    <Compile Include="BFDO\Wallet.cs" />
+    <Compile Include="BFUtil.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="GDO\EventItem.cs" />
+    <Compile Include="GDO\Market.cs" />
+    <Compile Include="GDO\MarketHeader.cs" />
+    <Compile Include="GDO\MarketItem.cs" />
+    <Compile Include="Properties\Message.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Message.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceI.cs" />
+    <Compile Include="SPSeries.cs" />
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Message.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Message.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
